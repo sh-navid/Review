@@ -5,7 +5,6 @@ A guide to review concepts that a software engineer might overlook or forget.
 ## Software
 
 ### Programming Languages
-
 - JavaScript
 - Python
 - Java
@@ -14,9 +13,7 @@ A guide to review concepts that a software engineer might overlook or forget.
 - Ruby
 - **Kotlin**: A modern programming language for Android and server-side applications.
 
-
 ### Frameworks
-
 - React
 - Angular
 - Vue.js
@@ -28,7 +25,6 @@ A guide to review concepts that a software engineer might overlook or forget.
 - **Ktor**: A framework for building asynchronous servers and clients.
 
 ### Programming Paradigms
-
 - Object-Oriented Programming (OOP)
 - Functional Programming
 - Procedural Programming
@@ -39,7 +35,6 @@ A guide to review concepts that a software engineer might overlook or forget.
 ### Software Design Principles
 
 #### Object-Oriented Principles
-
 - **SOLID**: A set of principles that helps design software that is easy to maintain and extend.
 - **GRASP**: General Responsibility Assignment Software Patterns.
 - **KISS**: Keep It Simple, Stupid.
@@ -48,47 +43,34 @@ A guide to review concepts that a software engineer might overlook or forget.
 - **CLARITY**
 
 #### General Design Principles
-
-- **Inversion of Control (IoC)**: A principle often implemented with Dependency Injection.
+- **Inversion of Control (IoC)**: Often implemented with Dependency Injection.
 - **Dependency Inversion Principle**: High-level modules should not depend on low-level modules; both should depend on abstractions.
 
 #### Domain-Driven Design (DDD)
-
-- A methodology and set of principles focused on building software for complex needs by connecting the implementation to an evolving model of the core business concepts.
+- A methodology and set of principles focused on building software for complex needs by connecting implementation to an evolving model of core business concepts.
 
 ### Design Patterns
-- GoF (Gang of Four)
-    - [Creational Patterns](./Software/DesignPatterns/CreationalPatterns.md)
-        - These patterns deal with object creation mechanisms, aiming to create objects in a manner suitable to the situation. They abstract the instantiation process, making it more flexible and reusable.
-
-    - [Structural Patterns](./Software/DesignPatterns/StructuralPatterns.md)
-        - These patterns focus on object composition, assisting in ensuring that if one part of a system changes, the entire system doesn’t need to change. They facilitate the organization of classes and objects to form larger structures.
-
-    - [Behavioral Patterns](./Software/DesignPatterns/BehavioralPatterns.md)
-        - These patterns emphasize communication and interaction between objects. They address how objects interact with one another, focusing on how they operate and react to changes in state, leading to more flexible and efficient interactions.
-
+- **GoF (Gang of Four)**
+    - [Creational Patterns](./Software/DesignPatterns/CreationalPatterns.md): Deal with object creation mechanisms.
+    - [Structural Patterns](./Software/DesignPatterns/StructuralPatterns.md): Focus on object composition.
+    - [Behavioral Patterns](./Software/DesignPatterns/BehavioralPatterns.md): Emphasize communication and interaction between objects.
 - [Additional Patterns](./Software/DesignPatterns/AdditionalPatterns.md)
 
 ### Software Architecture
 
 #### UI Patterns
-
-- **Model-View-Controller (MVC)**: Separates an application into three main components: the Model (data), the View (user interface), and the Controller (business logic).
-- **Model-View-Presenter (MVP)**: Separates the application into three components: the Model, the View, and the Presenter, which mediates between Model and View.
-- **Model-View-ViewModel (MVVM)**: Separates UI development from business logic and allows for clear data binding, primarily used in XAML-based technologies.
-- **VIPER**: Stands for View, Interactor, Presenter, Entity, and Routing, promoting separation of concerns with clear boundaries between components.
+- **Model-View-Controller (MVC)**: Separates an application into three main components: Model, View, and Controller.
+- **Model-View-Presenter (MVP)**: Similar to MVC, but with Presenter mediating between Model and View.
+- **Model-View-ViewModel (MVVM)**: Separates UI development from business logic for clear data binding.
+- **VIPER**: Promotes separation of concerns, consisting of View, Interactor, Presenter, Entity, and Routing.
 
 #### Software Architecture Patterns
-
-- **Clean Architecture**: A software design philosophy that separates the software solutions into layers, allowing for independent development, testing, and deployment. Focuses on the business logic and keeps it separated from frameworks and UI.
-- **Onion Architecture**: Emphasizes a clear separation of concerns, organizing the system into concentric layers with core business logic at the center.
-- **Microkernel Architecture**: Uses a minimal core system with the ability to add plugins or modules for extended functionalities without affecting the core system.
-- **Hexagonal Architecture (Ports and Adapters)**: Focuses on separating the application logic from external systems via ports and adapters.
-
-              
+- **Clean Architecture**: Separates software solutions into layers focusing on business logic.
+- **Onion Architecture**: Organizes the system into concentric layers with core business logic at the center.
+- **Microkernel Architecture**: Minimal core system with the ability to add plugins for extended functionalities.
+- **Hexagonal Architecture (Ports and Adapters)**: Separates application logic from external systems.
 
 ### Web API Architecture
-
 - **REST**
 - **SOAP**
 - **GraphQL**
@@ -98,12 +80,10 @@ A guide to review concepts that a software engineer might overlook or forget.
 - **Remote Procedure Call (RPC)**
 
 ## Network
-
 - [Network Protocols](./Network/Protocols.md)
 - [Network Tools](./Network/Tools.md)
 
 ## Security
-
 - [OWASP Top 10](./Security/OWASP.md)
 - **RSA**: Asymmetric cryptographic algorithm.
 - **JWT**: JSON Web Tokens for secure data transmission.
@@ -115,7 +95,6 @@ A guide to review concepts that a software engineer might overlook or forget.
 ## DevOps
 
 ### CI/CD Pipelines
-
 - **GitHub Actions**
 - **GitLab CI/CD**
 - **Jenkins**
@@ -123,16 +102,14 @@ A guide to review concepts that a software engineer might overlook or forget.
 - **CircleCI**
 
 ### Testing Strategies
-
 - **Unit Testing**
 - **Integration Testing**
 - **Architecture Testing**
 - **Linting**: Checking code for stylistic errors.
 - **Dependency Checks**
-- **Test-Driven Development (TDD)**: A software development approach where tests are written before the code, guiding the development process and ensuring the code meets requirements.
+- **Test-Driven Development (TDD)**: Writing tests before the code.
 
 ## Containers
-
 - **Containerization**
   - **Docker**
   - **Docker Swarm**
@@ -140,30 +117,26 @@ A guide to review concepts that a software engineer might overlook or forget.
   - **Kubernetes**
 
 ## Cloud Platforms
-
 - **AWS**
 - **Azure**
 - **Google Cloud Platform (GCP)**
 - **Multi-Cloud Strategies**
 
 ## Log Management Tools
-
 - **Grafana**
 - **ELK Stack**: Elasticsearch, Logstash, and Kibana.
 - **Splunk**
 - **Prometheus**
 
 ## Configuration Management Tools
-
 - **Puppet**
 - **SaltStack**
 - **Ansible**
 - **Chef**
 
 ## Essential Concepts
-
 - **Microservices**: Architecture style that structures an application as a collection of loosely coupled services.
-- **Service Mesh**: Dedicated infrastructure layer for handling service-to-service communication.
+- **Service Mesh**: Infrastructure layer for handling service-to-service communication.
 - **API Management**
 
 ## Artificial Intelligence
@@ -178,34 +151,28 @@ A guide to review concepts that a software engineer might overlook or forget.
 ## Other Topics
 
 ### Frontend Development
-
 - **CSS**
 - **Progressive Web Apps (PWA)**
 - **Markdown**
 
 ### Source Control Systems
-
 - **Git**
 - **SVN**
 - **TFS**
 
 ### API Tools
-
 - **Postman**
 - **Curl**
 
 ### Infrastructure as Code
-
 - **Terraform**
 
 ### Text Editors & Command Line Tools
-
 - **Vim**
 - **Bash**
 - **SSH**
 
 ### Messaging & Concurrency
-
 - **Message Brokers**
   - **RabbitMQ**
   - **Apache Kafka**
@@ -213,9 +180,9 @@ A guide to review concepts that a software engineer might overlook or forget.
 - **Asynchronous Programming**
 
 ### Other
-- **n8n**: An open-source workflow automation tool that allows you to connect various services and automate tasks. 
-- **Zapier**: A popular automation tool that connects different apps and services; however, it is not open-source and has a pricing model. 
-- **Integromat (Make)**: Offers similar capabilities to n8n and Zapier, allowing for automation between services with a visual editor. 
-- **Node-RED**: A flow-based development tool for visual programming, allowing for wiring together devices, APIs, and online services. 
-- **Apache Airflow**: An open-source tool to programmatically author, schedule, and monitor workflows.
-- **BPMN Tools (e.g., Camunda)**: Business Process Model and Notation tools for modeling business processes and automating them. 
+- **n8n**: An open-source workflow automation tool.
+- **Zapier**: Automation tool with a pricing model.
+- **Integromat (Make)**: Similar capabilities to n8n and Zapier.
+- **Node-RED**: A flow-based development tool for visual programming.
+- **Apache Airflow**: Open-source tool for authoring, scheduling, and monitoring workflows.
+- **BPMN Tools (e.g., Camunda)**: Business Process Model and Notation tools for modeling business processes.
