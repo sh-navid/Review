@@ -44,25 +44,48 @@ A guide to review concepts that a software engineer might overlook or forget.
 - **Dependency Inversion Principle**: High-level modules should not depend on low-level modules; both should depend on abstractions.
 
 ### Design Patterns
-#### Object-Oriented Design Patterns (GoF Patterns)
-- **Singleton**
-- **Decorator**
-- **Factory Method**
-- **Abstract Factory**
-- **Builder**: Cleans complex initialization logic or allows multiple input parameters.
+
+## Creational Patterns
+These patterns deal with object creation mechanisms, trying to create objects in a manner suitable to the situation.
+
+- **Singleton**: Ensures a class only has one instance and provides a global point of access to it.
+- **Factory Method**: Defines an interface for creating an object but lets subclasses alter the type of objects that will be created.
+- **Abstract Factory**: Creates an interface for creating families of related or dependent objects without specifying their concrete classes.
+- **Builder**: Separates the construction of a complex object from its representation, allowing the same construction process to create different representations.
+- **Prototype**: Involves creating an object based on a template of an existing object through cloning.
+
+## Structural Patterns
+These patterns deal with object composition and typically help ensure that if one part of a system changes, the entire system doesn’t need to change.
+
 - **Adapter**: Enables compatibility between incompatible interfaces, e.g., a 3-pin charger with a 2-pin outlet.
+- **Bridge**: Separates an object's interface from its implementation, allowing both to vary independently.
+- **Composite**: Composes objects into tree structures to represent part-whole hierarchies, allowing clients to treat individual objects and compositions uniformly.
+- **Decorator**: Allows behavior to be added to individual objects, either statically or dynamically, without affecting the behavior of other objects from the same class.
 - **Facade**: Provides a simplified interface to a complex subsystem.
-- **Observer**: A pattern for notifying multiple subscribers about a state change.
-- **Strategy**: Enables selecting an algorithm at runtime.
+- **Flyweight**: Reduces the cost of creating and manipulating a large number of similar objects by sharing their common state.
 - **Proxy**: Acts as a surrogate or placeholder, with types including:
     - **Protection Proxy**
     - **Virtual Proxy**
     - **Remote Proxy**: Used for accessing objects in different address spaces.
 
-### Additional Patterns
-- **View Holder Pattern**
-- **Dependency Injection (DI)**
-- **Service Locator Pattern**: An alternative to DI.
+## Behavioral Patterns
+These patterns focus on communication between objects, what goes on between objects and how they operate, along with how they react to changes.
+
+- **Observer**: A pattern for notifying multiple subscribers about a state change.
+- **Strategy**: Enables selecting an algorithm at runtime by defining a family of algorithms, encapsulating each one, and making them interchangeable.
+- **Command**: Encapsulates a request as an object, thereby allowing for parameterization of clients with queues, requests, and operations.
+- **Chain of Responsibility**: Passes a request along a chain of handlers, allowing multiple objects an opportunity to handle the request.
+- **Memento**: Captures and externalizes an object’s internal state without violating encapsulation, allowing the object to be restored to this state later.
+- **Iterator**: Provides a way to access the elements of an aggregate object without exposing its underlying representation.
+- **State**: Allows an object to alter its behavior when its internal state changes.
+- **Template Method**: Defines the skeleton of an algorithm in the superclass but lets subclasses redefine certain steps.
+- **Visitor**: Lets you separate algorithms from the object structure on which it operates.
+
+## Additional Patterns
+These patterns don’t fit neatly into the categories above but are still important in software design.
+
+- **Dependency Injection (DI)**: A technique whereby one object supplies the dependencies of another object.
+- **Service Locator Pattern**: A design pattern that intends to allow for the resolution of dependencies across the application.
 
 ### Software Architecture
 - **Model-View-Controller (MVC)**
