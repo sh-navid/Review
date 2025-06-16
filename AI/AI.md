@@ -168,6 +168,13 @@
 - [DeepSeek](https://www.deepseek.com)
 - [Poe](https://poe.com/)
 - [Pi.ai](https://pi.ai)
+- [NaBotX](https://github.com/sh-navid/NaBotX)
+- [NaBotA](https://github.com/sh-navid/NaBotA)
+- [Lovable](https://lovable.dev/)
+- [DuckAI](https://duck.ai)
+
+### AI Services
+- [Liara](https://liara.ir)
 
 ### Useful Links
 - [Getting started with ML](https://www.w3schools.com/python/python_ml_getting_started.asp)
