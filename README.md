@@ -38,10 +38,15 @@ A guide to review concepts that a software engineer might overlook or forget.
 - **KISS**: Keep It Simple, Stupid.
 - **DRY**: Don't Repeat Yourself.
 - **YAGNI**: You Aren't Gonna Need It.
+- **CLARITY**
 
 #### General Design Principles
 - **Inversion of Control (IoC)**: A principle often implemented with Dependency Injection.
 - **Dependency Inversion Principle**: High-level modules should not depend on low-level modules; both should depend on abstractions.
+
+#### Domain-Driven Design (DDD)
+- **Domain-Driven Design (DDD)**: A methodology and set of principles focused on building software for complex needs by connecting the implementation to an evolving model of the core business concepts.
+
 
 ### Design Patterns
 
@@ -131,6 +136,8 @@ These patterns don’t fit neatly into the categories above but are still import
 - **Architecture Testing**
 - **Linting**: Checking code for stylistic errors.
 - **Dependency Checks**
+- **Test-Driven Development (TDD)**: A software development approach where tests are written before the code, guiding the development process and ensuring the code meets requirements.
+
 
 ## Containers
 - **Containerization**
