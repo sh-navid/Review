@@ -10,6 +10,8 @@ A guide to review concepts that a software engineer might overlook or forget.
 - C#
 - Go
 - Ruby
+- **Kotlin**: A modern programming language for Android and server-side applications.
+- **.NET Core**: A cross-platform framework primarily using C# for various app development.
 
 ### Frameworks
 - React
@@ -18,6 +20,8 @@ A guide to review concepts that a software engineer might overlook or forget.
 - Spring
 - Django
 - Flask
+- **ASP.NET Core**: For web applications and APIs, leveraging MVC and REST principles.
+- **Ktor**: A framework for building asynchronous servers and clients.
 
 ### Programming Paradigms
 - Object-Oriented Programming (OOP)
