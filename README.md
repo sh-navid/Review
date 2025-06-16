@@ -167,13 +167,13 @@ A guide to review concepts that a software engineer might overlook or forget.
 - **API Management**
 
 ## Artificial Intelligence
-- Domains
+- **Domains**
     - **Machine Learning**
     - **Deep Learning**
     - **Natural Language Processing (NLP)**
-- Tools
-- Libs
-- Services
+- **Tools**
+- **Libs**
+- **Services**
 
 ## Other Topics
 
@@ -187,6 +187,7 @@ A guide to review concepts that a software engineer might overlook or forget.
 
 - **Git**
 - **SVN**
+- **TFS**
 
 ### API Tools
 
