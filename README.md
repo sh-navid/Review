@@ -53,23 +53,38 @@ A guide to review concepts that a software engineer might overlook or forget.
 
 #### Domain-Driven Design (DDD)
 
-- **Domain-Driven Design (DDD)**: A methodology and set of principles focused on building software for complex needs by connecting the implementation to an evolving model of the core business concepts.
+- A methodology and set of principles focused on building software for complex needs by connecting the implementation to an evolving model of the core business concepts.
 
 ### Design Patterns
 
 - [Creational Patterns](./Software/DesignPatterns/CreationalPatterns.md)
+    - These patterns deal with object creation mechanisms, aiming to create objects in a manner suitable to the situation. They abstract the instantiation process, making it more flexible and reusable.
+
 - [Structural Patterns](./Software/DesignPatterns/StructuralPatterns.md)
+    - These patterns focus on object composition, assisting in ensuring that if one part of a system changes, the entire system doesn’t need to change. They facilitate the organization of classes and objects to form larger structures.
+
 - [Behavioral Patterns](./Software/DesignPatterns/BehavioralPatterns.md)
+    - These patterns emphasize communication and interaction between objects. They address how objects interact with one another, focusing on how they operate and react to changes in state, leading to more flexible and efficient interactions.
+
 - [Additional Patterns](./Software/DesignPatterns/AdditionalPatterns.md)
 
 ### Software Architecture
 
-- **Model-View-Controller (MVC)**
-- **Model-View-Presenter (MVP)**
-- **Model-View-ViewModel (MVVM)**
-- **VIPER**
-- **Clean Architecture**
-- **Hexagonal Architecture (Ports and Adapters)**
+#### UI Patterns
+
+- **Model-View-Controller (MVC)**: Separates an application into three main components: the Model (data), the View (user interface), and the Controller (business logic).
+- **Model-View-Presenter (MVP)**: Separates the application into three components: the Model, the View, and the Presenter, which mediates between Model and View.
+- **Model-View-ViewModel (MVVM)**: Separates UI development from business logic and allows for clear data binding, primarily used in XAML-based technologies.
+- **VIPER**: Stands for View, Interactor, Presenter, Entity, and Routing, promoting separation of concerns with clear boundaries between components.
+
+#### Software Architecture Patterns
+
+- **Clean Architecture**: A software design philosophy that separates the software solutions into layers, allowing for independent development, testing, and deployment. Focuses on the business logic and keeps it separated from frameworks and UI.
+- **Onion Architecture**: Emphasizes a clear separation of concerns, organizing the system into concentric layers with core business logic at the center.
+- **Microkernel Architecture**: Uses a minimal core system with the ability to add plugins or modules for extended functionalities without affecting the core system.
+- **Hexagonal Architecture (Ports and Adapters)**: Focuses on separating the application logic from external systems via ports and adapters.
+
+              
 
 ### Web API Architecture
 
