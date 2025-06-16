@@ -2,6 +2,12 @@
 
 A guide to review concepts that a software engineer might overlook or forget.
 
+## Artificial Intelligence
+- [**Overview**](./AI/AI.md)
+- **Tools**
+- **Libs**
+- **Services**
+
 ## Software
 
 ### Programming Languages
@@ -133,6 +139,28 @@ A guide to review concepts that a software engineer might overlook or forget.
 - **AsyncAPI**
 - **Remote Procedure Call (RPC)**
 
+## Databases
+
+### SQL Databases
+- **MySQL**: An open-source relational database management system.
+- **PostgreSQL**: A powerful, open-source object-relational database system with an emphasis on extensibility and standards compliance.
+- **SQLite**: A self-contained, high-reliability, embedded SQL database engine.
+
+### NoSQL Databases
+- **MongoDB**: A popular NoSQL database that stores data in JSON-like documents.
+- **Cassandra**: A highly scalable NoSQL database designed for handling large amounts of data across many servers with no single point of failure.
+- **Redis**: An open-source, in-memory data structure store, used as a database, cache, and message broker.
+
+### Database Concepts
+- **ORM (Object-Relational Mapping)**: A programming technique for converting data between incompatible type systems in object-oriented programming languages.
+- **Database Indexing**: A data structure technique that shows the efficiency of data retrieval operations on a database table.
+- **ACID Properties**: Set of properties that guarantee database transactions are processed reliably.
+
+### Database Design Principles
+- **Normalization**: Process of organizing fields and tables of a relational database to minimize redundancy.
+- **Denormalization**: The process of attempting to optimize the read performance of a database by adding redundant data.
+
+
 ## Network
 - [Network Protocols](./Network/Protocols.md)
 - [Network Tools](./Network/Tools.md)
@@ -192,15 +220,6 @@ A guide to review concepts that a software engineer might overlook or forget.
 - **Microservices**: Architecture style that structures an application as a collection of loosely coupled services.
 - **Service Mesh**: Infrastructure layer for handling service-to-service communication.
 - **API Management**
-
-## Artificial Intelligence
-- **Domains**
-    - **Machine Learning**
-    - **Deep Learning**
-    - **Natural Language Processing (NLP)**
-- **Tools**
-- **Libs**
-- **Services**
 
 ## Other Topics
 
