@@ -13,7 +13,7 @@ A guide to review concepts that a software engineer might overlook or forget.
 - Go
 - Ruby
 - **Kotlin**: A modern programming language for Android and server-side applications.
-- **.NET Core**: A cross-platform framework primarily using C# for various app development.
+
 
 ### Frameworks
 
@@ -23,7 +23,8 @@ A guide to review concepts that a software engineer might overlook or forget.
 - Spring
 - Django
 - Flask
-- **ASP.NET Core**: For web applications and APIs, leveraging MVC and REST principles.
+- **.NET Core**: A cross-platform framework primarily using C# for various app development.
+    - **ASP.NET Core**: For web applications and APIs, leveraging MVC and REST principles.
 - **Ktor**: A framework for building asynchronous servers and clients.
 
 ### Programming Paradigms
@@ -56,15 +57,15 @@ A guide to review concepts that a software engineer might overlook or forget.
 - A methodology and set of principles focused on building software for complex needs by connecting the implementation to an evolving model of the core business concepts.
 
 ### Design Patterns
+- GoF (Gang of Four)
+    - [Creational Patterns](./Software/DesignPatterns/CreationalPatterns.md)
+        - These patterns deal with object creation mechanisms, aiming to create objects in a manner suitable to the situation. They abstract the instantiation process, making it more flexible and reusable.
 
-- [Creational Patterns](./Software/DesignPatterns/CreationalPatterns.md)
-    - These patterns deal with object creation mechanisms, aiming to create objects in a manner suitable to the situation. They abstract the instantiation process, making it more flexible and reusable.
+    - [Structural Patterns](./Software/DesignPatterns/StructuralPatterns.md)
+        - These patterns focus on object composition, assisting in ensuring that if one part of a system changes, the entire system doesn’t need to change. They facilitate the organization of classes and objects to form larger structures.
 
-- [Structural Patterns](./Software/DesignPatterns/StructuralPatterns.md)
-    - These patterns focus on object composition, assisting in ensuring that if one part of a system changes, the entire system doesn’t need to change. They facilitate the organization of classes and objects to form larger structures.
-
-- [Behavioral Patterns](./Software/DesignPatterns/BehavioralPatterns.md)
-    - These patterns emphasize communication and interaction between objects. They address how objects interact with one another, focusing on how they operate and react to changes in state, leading to more flexible and efficient interactions.
+    - [Behavioral Patterns](./Software/DesignPatterns/BehavioralPatterns.md)
+        - These patterns emphasize communication and interaction between objects. They address how objects interact with one another, focusing on how they operate and react to changes in state, leading to more flexible and efficient interactions.
 
 - [Additional Patterns](./Software/DesignPatterns/AdditionalPatterns.md)
 
@@ -166,10 +167,13 @@ A guide to review concepts that a software engineer might overlook or forget.
 - **API Management**
 
 ## Artificial Intelligence
-
-- **Machine Learning**
-- **Deep Learning**
-- **Natural Language Processing (NLP)**
+- Domains
+    - **Machine Learning**
+    - **Deep Learning**
+    - **Natural Language Processing (NLP)**
+- Tools
+- Libs
+- Services
 
 ## Other Topics
 
@@ -206,3 +210,11 @@ A guide to review concepts that a software engineer might overlook or forget.
   - **Apache Kafka**
 - **Coroutines**
 - **Asynchronous Programming**
+
+### Other
+- **n8n**: An open-source workflow automation tool that allows you to connect various services and automate tasks. 
+- **Zapier**: A popular automation tool that connects different apps and services; however, it is not open-source and has a pricing model. 
+- **Integromat (Make)**: Offers similar capabilities to n8n and Zapier, allowing for automation between services with a visual editor. 
+- **Node-RED**: A flow-based development tool for visual programming, allowing for wiring together devices, APIs, and online services. 
+- **Apache Airflow**: An open-source tool to programmatically author, schedule, and monitor workflows.
+- **BPMN Tools (e.g., Camunda)**: Business Process Model and Notation tools for modeling business processes and automating them. 
